@@ -17,6 +17,10 @@ import Progress from './pages/Progress';
 import Cards from './pages/Cards';
 import Layer from './pages/Layer';
 import ToastM from './pages/ToastM.jsx';
+import Pagination from './pages/Pagination.jsx';
+import List from './pages/List.jsx';
+import Collapse from './pages/Collapse.jsx';
+import Form from './pages/Form.jsx';
 // import React from 'react';
 // import App from './App';
 // import './index.css';
@@ -41,6 +45,10 @@ export default function App() {
           <Route path="cards" element={<Cards />} />
           <Route path="layer" element={<Layer />} />
           <Route path="toastm" element={<ToastM />} />
+          <Route path="pagination" element={<Pagination />} />
+          <Route path="list" element={<List />} />
+          <Route path="collapse" element={<Collapse />} />
+          <Route path="form" element={<Form />} />
         </Route>
       </Routes>
     </BrowserRouter >

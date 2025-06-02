@@ -21,9 +21,9 @@ const Home = () => {
                         import ReactDOM from 'react-dom';
                         ReactDOM.render(, document.getElementById('root'));
                     </code>
-                    <br/>
+                    <br/><br/>
                     <code>
-                        // After //
+                        // After // <br/>
                         import ReactDOM from 'react-dom/client';
                         const root = ReactDOM.createRoot(document.getElementById('root'));
                         root.render();
