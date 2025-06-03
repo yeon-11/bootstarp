@@ -23,6 +23,8 @@ import Collapse from './pages/Collapse.jsx';
 import Form from './pages/Form.jsx';
 import Flex from './pages/Flex.jsx';
 import Flex2 from './pages/Flex2.jsx';
+import Hooks from './pages/Hooks.jsx';
+import Effect from './pages/Effect.jsx';
 // import React from 'react';
 // import App from './App';
 // import './index.css';
@@ -53,6 +55,8 @@ export default function App() {
           <Route path="form" element={<Form />} />
           <Route path="flex" element={<Flex />} />
           <Route path="flex2" element={<Flex2 />} />
+          <Route path="hooks" element={<Hooks />} />
+          <Route path="effect" element={<Effect />} />
         </Route>
       </Routes>
     </BrowserRouter >
