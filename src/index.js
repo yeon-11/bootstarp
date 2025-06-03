@@ -21,6 +21,8 @@ import Pagination from './pages/Pagination.jsx';
 import List from './pages/List.jsx';
 import Collapse from './pages/Collapse.jsx';
 import Form from './pages/Form.jsx';
+import Flex from './pages/Flex.jsx';
+import Flex2 from './pages/Flex2.jsx';
 // import React from 'react';
 // import App from './App';
 // import './index.css';
@@ -49,6 +51,8 @@ export default function App() {
           <Route path="list" element={<List />} />
           <Route path="collapse" element={<Collapse />} />
           <Route path="form" element={<Form />} />
+          <Route path="flex" element={<Flex />} />
+          <Route path="flex2" element={<Flex2 />} />
         </Route>
       </Routes>
     </BrowserRouter >
