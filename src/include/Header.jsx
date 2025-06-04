@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-sm bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">React Reference</a>
+                    <a className="navbar-brand" href="/">React Ref</a>
                     {/* MENU Bar */}
                     <button className="navbar-toggler" data-bs-toggle="collapse" data-bd-target="#target">
                         <span className="navbar-toggler-icon"></span>
@@ -37,6 +37,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link to="/flex2" className="nav-link">Flex2</Link>
                             </li>
+
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                     Component etc
@@ -82,6 +83,35 @@ const Header = () => {
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/form" className="nav-link">Form</Link>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    ReactBootatrap
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li className="nav-item">
+                                        <Link to="/acc" className="nav-link">Accodion</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/tabs" className="nav-link">Tabs</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/tb" className="nav-link">Tb</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/buttons" className="nav-link">Button</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/ref" className="nav-link">Ref</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/fig" className="nav-link">Figure</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/modals" className="nav-link">Modals</Link>
                                     </li>
                                 </ul>
                             </li>

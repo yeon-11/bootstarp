@@ -25,6 +25,13 @@ import Flex from './pages/Flex.jsx';
 import Flex2 from './pages/Flex2.jsx';
 import Hooks from './pages/Hooks.jsx';
 import Effect from './pages/Effect.jsx';
+import Acc from './boot/Acc.js';
+import Tabss from './boot/Tabss.js';
+import Tb from './boot/Tb.js';
+import Buttons from './boot/Buttons.js';
+import Ref from './boot/Ref.jsx';
+import Fig from './boot/Fig.js';
+import Modals from './boot/Modals.js';
 // import React from 'react';
 // import App from './App';
 // import './index.css';
@@ -57,6 +64,13 @@ export default function App() {
           <Route path="flex2" element={<Flex2 />} />
           <Route path="hooks" element={<Hooks />} />
           <Route path="effect" element={<Effect />} />
+          <Route path="acc" element={<Acc />} />
+          <Route path="tabss" element={<Tabss />} />
+          <Route path="tb" element={<Tb />} />
+          <Route path="buttons" element={<Buttons />} />
+          <Route path="ref" element={<Ref />} />
+          <Route path="fig" element={<Fig />} />
+          <Route path="modals" element={<Modals />} />
         </Route>
       </Routes>
     </BrowserRouter >
